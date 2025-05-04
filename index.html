@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Halaman perkenalan tentang hobi dan minat." />
+  <title>Portofolio Nabila</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="site-title">Nabila Gusniar Putri</h1>
+      <button id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+      <nav id="main-nav" class="nav-links">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#multimedia">Multimedia</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <main>
+    <div class="flex-container">
+      <section id="about" class="flex-item">
+        <div class="about-container">
+          <div class="about-text">
+            <h2>About</h2>
+            <p align="justify">
+              안녕하세요! Saya Nabila Gusniar Putri, mahasiswa Sistem Informasi di Universitas Internasional Semen Indonesia. Ini adalah langkah awal saya dalam mengeksplorasi dunia pemrograman web, dengan tugas pertama mata kuliah Pemrograman Web yaitu membuat halaman HTML sederhana. Saya sangat semangat dan antusias untuk belajar dan berkembang di bidang ini!
+            </p>
+
+            <h3>Pendidikan</h3>
+            <ul>
+              <li>Universitas Internasional Semen Indonesia – Sistem Informasi (2023–sekarang)</li>
+              <li>SMA GIKI 1 Surabaya – MIPA (2020–2023)</li>
+            </ul>
+          </div>
+          <div class="about-img">
+            <img src="img/nabila.jpg" alt="Nabila Gusniar Putri" />
+          </div>
+        </div>
+      </section>
+
+      <section class="flex-item" style="background-color: #f1f1f1; border-radius: 5px; padding: 20px; color: #000;">
+        <h2 style="color: #b086ff;">Hobbies</h2>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+          <li>Membaca cerita bergambar yang dipublikasikan secara digital (manhwa, manga, manhua, webtoon, dll)</li>
+          <li>Belajar bahasa baru dengan menonton drama, seperti drama korea dan drama china</li>
+          <li>Fotografi pemandangan dan potret</li>
+        </ul>
+      
+        <h2>Keahlian</h2>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+          <li>Desain Grafis (Pamflet/poster digital & logo)</li>
+          <li>Mengoperasikan Komputer (Ms Word, Excel, & PowerPoint)</li>
+          <li>Bahasa Inggris & Korea Basic</li>
+        </ul>
+      </section>
+      
+    </div>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-item">
+          <img src="img/dpp.jpg" alt="Project 1" class="project-img" />
+          <h3>Project 1: Aplikasi Postly</h3>
+          <p>UX design perencanaan aplikasi berbasis sosial media "Postly: Kreativitas Mengalir, Interaksi Tak Terbatas!” dengan menggunakan Figma. Postly merupakan aplikasi sosial media untuk berbagi pemikiran, ide, dan update singkat dalam bentuk teks (dengan batasan karakter), gambar, atau video pendek dengan kualitas yang tinggi.</p>
+        </div>
+        <div class="project-item">
+          <img src="img/ppic.jpg" alt="Project 2" class="project-img" />
+          <h3>Project 2: Aplikasi Stock Sense</h3>
+          <p>Stock Sense adalah rancangan aplikasi menggunakan Figma yang memberikan kemudahan penjual untuk mengelola stok bahan.</p>
+        </div>
+        <div class="project-item">
+          <img src="img/wasling.jpg" alt="Project 3" class="project-img" />
+          <h3>Project 3: Aplikasi Zero Waste Heroes </h3>
+          <p>Zero Waste Heroes adalah sebuah program aplikasi yang berkomitmen untuk mengurangi limbah, terutama limbah makanan, dengan cara memanfaatkan sisa makanan yang masih layak untuk didonasikan, serta mengolah sisa makanan yang tidak layak dengan cara yang berkelanjutan.</p>
+       </div>
+    </section>
+
+    <div class="media-container">
+      <section id="articles" class="flex-item">
+        <h2>Articles</h2>
+        <ul style="background-color: #d4bdff; padding: 30px; border-radius: 5px;">
+          <li>
+            <a href="https://www.kompasiana.com/nabilagusniarputri9198/655b4e78ee794a67dc7f1d52/concept-information-systems" style="text-decoration: none; color: #1100ff;">Concept Information Systems</a>
+          </li>
+          <p>Artikel ini membahas tentang Sistem informasi yang berperan sebagai jembatan antara aspek teknis (informatika) dan non-teknis (manajemen).</p>
+        </ul>
+      </section>
+
+      <section id="multimedia" class="flex-item">
+        <h2>Multimedia Elements</h2>
+        <video width="100%" height="auto" controls>
+          <source src="img/jimin.mp4" type="video/mp4" />
+        </video>
+        <br />
+        <audio controls style="margin-top: 10px;">
+          <source src="img/Jimin_-_Who.mp3" type="audio/mpeg" />
+        </audio>
+      </section>
+    </div>
+
+    <div class="flex-container">
+      <section id="contact" class="flex-item">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message"></textarea><br />
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    
+      <section id="guestbook" class="flex-item">
+        <h2>Buku Tamu</h2>
+        <form id="guestForm" style="display: flex; gap: 10px; align-items: center; width: 100%; margin-top: 20px;">
+          <input type="text" id="guestName" placeholder="Masukkan nama Anda..." style="flex: 1;" />
+          <button type="submit">Tambah</button>
+        </form>
+    
+        <h3>Daftar Nama Tamu:</h3>
+        <ul id="guestList" style="list-style: none; padding: 0; margin: 0;"></ul>
+      </section>
+    </div>
+    
+    <section>
+      <h2>Comment from API</h2>
+      <ul id="apiList"></ul>
+    </section>
+
+    <section>
+      <h2>Media from API</h2>
+      <div id="mediaRow" class="media-row">
+      </div>
+    </section>
+    
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nabila Gusniar Putri. All rights reserved.</p>
+  </footer>
+
+  <script src="tamu.js"></script>
+
+  
+</body>
+</html>
